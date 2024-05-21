@@ -1,0 +1,67 @@
+.container {
+  width: 500px;
+  height: 550px;
+  margin: auto;
+  margin-top: 75px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+}
+
+.top-bar {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.cityInput {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  height: 30px;
+  width: 300px;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px;
+  font-size: 15px;
+}
+
+/* .cityInput::placeholder {
+    padding: 10px;
+} */
+
+button {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  height: 40px;
+  border-radius: 12px;
+}
+
+.weather-location {
+  font-size: 90px;
+  color: white;
+  padding-top: 20px;
+}
+
+.weather-temp {
+  font-size: 80px;
+  color: white;
+  padding-top: 30px;
+}
+
+.data {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.data-container {
+  display: flex;
+  gap: 120px;
+  justify-content: center;
+  font-size: 25px;
+  padding-top: 90px;
+}

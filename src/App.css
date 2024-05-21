@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+}
+
+.inList {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
